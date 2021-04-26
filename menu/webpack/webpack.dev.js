@@ -63,15 +63,6 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './public/index.html',
-      minify: {
-        minifyCSS: true,
-        minifyJS: true,
-        minifyURLs: true,
-        removeComments: true,
-        removeRedundantAttributes: true,
-        collapseWhitespace: true,
-        removeEmptyAttributes: true
-      },
       inject: true
     })
   ]
