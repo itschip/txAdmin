@@ -15,4 +15,4 @@ export default function MenuProvider({ children }) {
 export const useVisibility = () => {
     const { visibility, setVisibility } = useContext(MenuContext);
     return { visibility, setVisibility }
-}       
+}
